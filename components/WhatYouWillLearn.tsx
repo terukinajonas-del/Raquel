@@ -6,7 +6,9 @@ const learnings = [
     "Como se posicionar sem brigar e sem se humilhar.",
     "O passo a passo para recuperar admiração e respeito.",
     "Como reavivar o desejo e a conexão emocional.",
-    "Técnicas simples que funcionam mesmo que ele esteja distante ou frio."
+    "Técnicas simples que funcionam mesmo que ele esteja distante ou frio.",
+    "Criar momentos de conexão mesmo com a correria do dia a dia.",
+    "Trazer leveza, carinho e desejo para dentro da rotina do casal."
 ];
 
 export const WhatYouWillLearn: React.FC = () => {

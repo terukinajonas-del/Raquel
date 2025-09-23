@@ -9,7 +9,9 @@ import { AuthorBio } from './components/AuthorBio';
 import { Guarantee } from './components/Guarantee';
 import { Footer } from './components/Footer';
 
-function App(): JSX.Element {
+// Fix: Removed explicit JSX.Element return type to resolve "Cannot find namespace 'JSX'" error.
+// The return type will be inferred correctly by TypeScript.
+function App() {
   return (
     <div className="bg-zinc-900 text-white min-h-screen">
       <div 
@@ -20,7 +22,7 @@ function App(): JSX.Element {
           <main className="container mx-auto px-6 py-16 md:py-24 flex flex-col items-center text-center">
             <Header />
             <div className="mt-12 w-full max-w-lg">
-              <CTAButton text="Quero transformar meu relacionamento por apenas R$14,90" />
+              <CTAButton text="Quero transformar meu relacionamento" />
             </div>
           </main>
         </div>
@@ -36,7 +38,7 @@ function App(): JSX.Element {
           <div className="container mx-auto px-6 flex flex-col items-center">
               <h2 className="font-serif-display text-3xl md:text-4xl font-bold text-center max-w-3xl leading-tight">Comece ainda hoje a resgatar o relacionamento que você merece.</h2>
               <div className="mt-8 w-full max-w-lg">
-                  <CTAButton text="Sim, eu quero meu acesso por R$14,90!" />
+                  <CTAButton text="Sim, eu quero meu acesso!" />
               </div>
           </div>
       </section>
