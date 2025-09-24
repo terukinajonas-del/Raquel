@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
                 Pare de brigar, implorar ou se sentir invisível
             </h1>
             <p className="mt-8 text-lg md:text-xl text-zinc-100 bg-black/30 backdrop-blur-sm p-4 rounded-lg max-w-3xl mx-auto border border-white/20">
-                Por apenas <span className="font-bold text-pink-400">R$14,90</span>, você terá acesso a um método simples que ensina a transformar a rotina do relacionamento em uma vida a dois mais leve, amorosa e cheia de conexão.
+                Descubra como transformar a rotina que trouxe frieza e distanciamento no seu relacionamento em momentos de conexão, carinho e amor todos os dias.
             </p>
         </header>
     );
